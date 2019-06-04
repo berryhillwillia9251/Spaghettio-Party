@@ -62,7 +62,7 @@ public class LetterHunt
                 }
                 while(letter[i] == '0'){
                     tempChar = (char)((int)(Math.random()*26)+65);
-                    if(!((Arrays.asList(letter)).contains(tempChar))){
+                    if(tempChar!=letter[0] && tempChar!=letter[1] && tempChar!=letter[2] && tempChar!=letter[3]){
                         letter[i] = tempChar;
                     }
                 }
