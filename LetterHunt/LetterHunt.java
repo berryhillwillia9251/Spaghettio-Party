@@ -46,7 +46,7 @@ public class LetterHunt
                 yPos[i] = -1;
                 letter[i] = '0';
             }
-            //Thread.sleep((long)((Math.random()*7000)+3000));
+            Thread.sleep((long)((Math.random()*7000)+3000));
             for(int i = 0; i < 4; i++){
                 while(xPos[i] == -1){
                     temp = (int)(Math.random() * 25);
